@@ -9,11 +9,11 @@ PROJECT_NAME = "project_name"
 
 #Folder Configuration:
 #=============================
-TRAIN_DIR = os.path.join("data", "train")
+TRAIN_DIR = os.path.join("../datasets", "train")
 TRAIN_CARTOON_DIR = os.path.join(TRAIN_DIR, "cartoon")
 TRAIN_PHOTO_DIR = os.path.join(TRAIN_DIR, "photo")
 
-VAL_DIR = os.path.join("data", "val")
+VAL_DIR = os.path.join("../datasets", "val")
 VAL_PHOTO_DIR = os.path.join(VAL_DIR, "photo")
 
 CHECKPOINT_FOLDER = os.path.join("checkpoints", PROJECT_NAME)
