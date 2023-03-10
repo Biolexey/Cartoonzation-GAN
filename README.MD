@@ -4,6 +4,10 @@ For my research(Citing https://github.com/vinesmsuic/White-box-Cartoonization-Py
 
 Problems
 - /workspace/Cartoonzation-GAN/structure_extractor.py:93: RuntimeWarning: invalid value encountered in power image = image**power
+- validation photo (too many monochromes)
+
+Now:
+30 epoch
 
 Unofficial PyTorch implementation of White-box-Cartoonization. We followed the original Tensorflow training implementation from the paper author ([Xinrui Wang](https://github.com/SystemErrorWang/White-box-Cartoonization)).
 

@@ -22,8 +22,8 @@ CHECKPOINT_DISC = "disc.pth.tar"
 CHECKPOINT_GEN = "gen.pth.tar"
 VGG_WEIGHTS = "vgg19-dcbb9e9d.pth"
 
-LOAD_CHECKPOINT_DISC = "i_disc.pth.tar"
-LOAD_CHECKPOINT_GEN = "i_gen.pth.tar"
+LOAD_CHECKPOINT_DISC = "5_disc.pth.tar"
+LOAD_CHECKPOINT_GEN = "5_gen.pth.tar"
 
 RESULT_TRAIN_DIR = os.path.join("results", PROJECT_NAME, "train")
 RESULT_VAL_DIR = os.path.join("results", PROJECT_NAME, "val")
@@ -32,7 +32,7 @@ RESULT_TEST_DIR = os.path.join("results", PROJECT_NAME, "test")
 SAVE_IMG_FREQ = 1000
 LOAD_MODEL = True
 SAVE_MODEL = True
-SAVE_MODEL_FREQ = 5
+SAVE_MODEL_FREQ = 3
 #=============================
 
 # Training Configuration:
@@ -44,7 +44,7 @@ BATCH_SIZE = 16
 LEARNING_RATE = 2e-4
 PRETRAIN_EPOCHS = 10
 NUM_EPOCHS = 200
-NUM_WORKERS = 4
+NUM_WORKERS = 8
 IMAGE_SIZE = 256
 #=============================
 
