@@ -31,7 +31,7 @@ RESULT_TEST_DIR = os.path.join("results", PROJECT_NAME, "test")
 SAVE_IMG_FREQ = 1000
 LOAD_MODEL = True
 SAVE_MODEL = True
-SAVE_MODEL_FREQ = 5
+SAVE_MODEL_FREQ = 3
 #=============================
 
 # Training Configuration:
@@ -39,11 +39,11 @@ SAVE_MODEL_FREQ = 5
 #BATCH_SIZE = 16
 #LEARNING_RATE = 2e-4
 #=============================
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 LEARNING_RATE = 2e-4
 PRETRAIN_EPOCHS = 10
 NUM_EPOCHS = 200
-NUM_WORKERS = 8
+NUM_WORKERS = 4
 IMAGE_SIZE = 256
 #=============================
 
