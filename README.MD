@@ -2,7 +2,7 @@
 
 For my research(Citing https://github.com/vinesmsuic/White-box-Cartoonization-PyTorch)
 
-Now 52 epoch
+Now 82 epoch
 
 Unofficial PyTorch implementation of White-box-Cartoonization. We followed the original Tensorflow training implementation from the paper author ([Xinrui Wang](https://github.com/SystemErrorWang/White-box-Cartoonization)).
 

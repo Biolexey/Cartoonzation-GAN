@@ -21,8 +21,8 @@ CHECKPOINT_DISC = "disc.pth.tar"
 CHECKPOINT_GEN = "gen.pth.tar"
 VGG_WEIGHTS = "vgg19-dcbb9e9d.pth"
 
-LOAD_CHECKPOINT_DISC = "24_disc.pth.tar"
-LOAD_CHECKPOINT_GEN = "24_gen.pth.tar"
+LOAD_CHECKPOINT_DISC = "21_disc.pth.tar"
+LOAD_CHECKPOINT_GEN = "21_gen.pth.tar"
 
 RESULT_TRAIN_DIR = os.path.join("results", PROJECT_NAME, "train")
 RESULT_VAL_DIR = os.path.join("results", PROJECT_NAME, "val")
